@@ -542,7 +542,7 @@ footer {
  @media (max-width: 600px) {
    
     nav {
-        padding: 2rem 2rem;
+        padding: 2rem 1rem;
         width: 100%;
     }
 
@@ -554,7 +554,7 @@ footer {
         display: none;
     }
     .reg-buttons .btn{
-        padding: .7rem .7rem;
+        padding: .5rem .5rem;
     }
 
     .reg-buttons {
