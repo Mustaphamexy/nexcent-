@@ -541,9 +541,13 @@ footer {
  @media (max-width: 600px) {
    
     nav {
-        padding: 2rem 2rem;
-        margin-right: 4rem;
+        padding: 2rem 3rem;
         width: 100%;
+        border: red;
+    }
+
+    nav img {
+        width: 70%;
     }
 
     .navigation{
@@ -591,7 +595,7 @@ footer {
      }
 
     .community-container h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .community-box {
@@ -632,6 +636,10 @@ footer {
         gap: 1rem;
     }
 
+    .profile-card h3 {
+        font-size: 1rem;
+    }
+
     .profile-text h2 {
         font-size: 2rem;
     }
@@ -643,12 +651,21 @@ footer {
         gap: 1.5rem;
     }
 
+    .customer-image img {
+        width: 80%;
+    }
+
     .customer-box {
         justify-content: space-evenly;
         gap: .7rem;
     }
     .customer-box img {
         width: 10%;
+    }
+
+    .customer-box p {
+        gap: .3rem;
+        font-size: .7rem;
     }
 
     .marketing-container{
