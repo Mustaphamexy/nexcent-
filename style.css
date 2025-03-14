@@ -541,7 +541,7 @@ footer {
  @media (max-width: 600px) {
    
     nav {
-        padding: 2rem 3rem;
+        padding: 2rem 2rem;
         width: 100%;
         border: red;
     }
@@ -662,7 +662,6 @@ footer {
     .customer-box img {
         width: 10%;
     }
-
     .customer-box p {
         gap: .3rem;
         font-size: .7rem;
