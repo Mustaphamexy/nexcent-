@@ -20,6 +20,10 @@ nav {
     padding: 2rem 10rem;
 }
 
+#menu-icon {
+    display: none;
+}
+
 ul {
     display: flex;
     gap: 3rem;
@@ -74,10 +78,6 @@ ul li a.active {
     border: 1px solid #388E3B;
 }
 
-nav i {
-    display: none;
-}
-
 /* hero section */
 
 .hero-container {
@@ -85,7 +85,7 @@ nav i {
     justify-content: space-between;
     padding: 0 4rem;
     margin: 4rem 8rem;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .hero-text h1 {
@@ -119,7 +119,7 @@ nav i {
 
 .hero-img img {
     margin-right: 4rem;
-    width: 80%;
+    width: 100%;
 }
 
 /* Community section */
@@ -435,11 +435,10 @@ footer {
         display: none;
     }
 
-   nav i {
-      display: inline-flex;
-      font-size: 2rem;
-      /* padding-top: .7rem; */
-    color: #388E3B;
+    #menu-icon {
+        font-size: 2rem;
+        color: #388E3B;
+        display: block;
     }
 
     .hero-container {
@@ -543,9 +542,8 @@ footer {
  @media (max-width: 600px) {
    
     nav {
-        padding: 2rem 1rem;
+        padding: 2rem 3rem;
         width: 100%;
-        border: red;
     }
 
     nav img {
@@ -563,7 +561,8 @@ footer {
         align-items: center;
     }
 
-   nav i {
+    #menu-icon{
+        display: block;
         font-size: 2rem;
         color: #388E3B;
     }
@@ -571,6 +570,7 @@ footer {
     .hero-container {
         padding: 0 1rem;
         margin: 2rem 2rem;
+        border: 1px solid red ;
     }
 
     .hero-text h1 {
