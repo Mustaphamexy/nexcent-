@@ -542,7 +542,7 @@ footer {
  @media (max-width: 600px) {
    
     nav {
-        padding: 2rem 3rem;
+        padding: 2rem 2.5rem;
         width: 100%;
     }
 
@@ -570,7 +570,6 @@ footer {
     .hero-container {
         padding: 0 1rem;
         margin: 2rem 2rem;
-        border: 1px solid red ;
     }
 
     .hero-text h1 {
