@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
 }
 
 body {
@@ -74,7 +75,7 @@ ul li a.active {
     border: 1px solid #388E3B;
 }
 
-.reg-buttons i {
+nav i {
     display: none;
 }
 
@@ -85,6 +86,7 @@ ul li a.active {
     justify-content: space-between;
     padding: 0 4rem;
     margin: 4rem 8rem;
+    width: 100%;
 }
 
 .hero-text h1 {
@@ -308,6 +310,7 @@ ul li a.active {
 .marketing-box{
     position: relative;
     text-align: center;
+    overflow: visible;
 }
 
 .marketing-content  {
@@ -433,7 +436,7 @@ footer {
         display: none;
     }
 
-    .reg-buttons i {
+   nav i {
       display: inline-flex;
       font-size: 2rem;
       /* padding-top: .7rem; */
@@ -559,15 +562,11 @@ footer {
 
     .reg-buttons {
         align-items: center;
-        position: relative;
     }
 
-    .reg-buttons i {
-        position: absolute;
-        display: inline-flex;
+   nav i {
         font-size: 2rem;
         color: #388E3B;
-        top: .3rem;
     }
 
     .hero-container {
@@ -581,7 +580,7 @@ footer {
 
     .hero-img img {
         margin-right: 0;
-        width: 100%;
+        width: 80%;
     }
 
     .community-container {
