@@ -429,10 +429,9 @@ footer {
         padding: 2rem 2rem;
         margin-right: 4rem;
         width: 100%;
-        overflow: hidden;
     }
 
-    .navigation{
+    .navigation {
         display: none;
     }
 
@@ -441,6 +440,7 @@ footer {
         color: #388E3B;
         display: block;
     }
+    
 
     .hero-container {
         padding: 0 1rem;
@@ -485,7 +485,7 @@ footer {
     }
 
     .pixel-container {
-        flex-direction: row-reverse;
+        flex-direction: column;
         padding: 2rem 2rem;
     }
 
@@ -527,11 +527,18 @@ footer {
     }
 
     .footer-container{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
         padding: 4rem 3rem;
         gap: 1rem;
     }
     .input-container input{
         padding: 1rem .7rem;
+    }
+
+    .input-icon {
+        top: 40%;
+        left: 70%;
     }
 
 
@@ -541,19 +548,27 @@ footer {
  }
 
  @media (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
    
     nav {
         padding: 2rem 1rem;
         width: 100%;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     nav img {
         width: 70%;
     }
 
-    .navigation{
+    .navigation {
         display: none;
+    }
+
+    .navigation.active {
+        display: block;
     }
     .reg-buttons .btn{
         padding: .5rem .5rem;
@@ -569,11 +584,32 @@ footer {
         color: #388E3B;
     }
 
+    nav ul {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #1f242d;
+        gap: 0;
+    }
+
+    nav ul li {
+        padding: 20px;  
+
+    }
+
+    nav ul.active {
+        display: block;
+    }
+
+
     .hero-container {
         padding: 0 1rem;
         margin: 2rem 2rem;
         flex-direction: column-reverse;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     .hero-text h1 {
@@ -651,7 +687,7 @@ footer {
         flex-direction: column;
         align-items: center;
         gap: 1.5rem;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     .customer-image img {
@@ -671,8 +707,8 @@ footer {
     }
 
     .marketing-container{
-        padding: 2rem 4rem 7rem;
-        overflow-x: hidden;
+        padding: 2rem 2rem;
+        /* overflow-x: hidden; */
     }
 
     .marketing-box{
@@ -703,9 +739,8 @@ footer {
 
     .footer-container{
        display: grid;
-        padding: 4rem 3rem;
+        padding: 4rem 2rem;
         gap: 1rem;
-        overflow-x: hidden;
     }
     .input-container input{
         padding: 1rem .7rem;
