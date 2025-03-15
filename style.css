@@ -429,6 +429,7 @@ footer {
         padding: 2rem 2rem;
         margin-right: 4rem;
         width: 100%;
+        overflow: hidden;
     }
 
     .navigation{
@@ -544,6 +545,7 @@ footer {
     nav {
         padding: 2rem 1rem;
         width: 100%;
+        overflow-x: hidden;
     }
 
     nav img {
@@ -570,6 +572,8 @@ footer {
     .hero-container {
         padding: 0 1rem;
         margin: 2rem 2rem;
+        flex-direction: column-reverse;
+        overflow-x: hidden;
     }
 
     .hero-text h1 {
@@ -631,6 +635,7 @@ footer {
     .profile-card {
         padding: 2rem 4rem;
         gap: 1rem;
+       
     }
 
     .profile-card h3 {
@@ -646,6 +651,7 @@ footer {
         flex-direction: column;
         align-items: center;
         gap: 1.5rem;
+        overflow-x: hidden;
     }
 
     .customer-image img {
@@ -666,6 +672,7 @@ footer {
 
     .marketing-container{
         padding: 2rem 4rem 7rem;
+        overflow-x: hidden;
     }
 
     .marketing-box{
@@ -688,6 +695,7 @@ footer {
     }
     .demo-container {
         padding: 2rem 3rem;
+        overflow-x: hidden;
     }
      .demo-container h2 {
         font-size: 2rem;
@@ -697,6 +705,7 @@ footer {
        display: grid;
         padding: 4rem 3rem;
         gap: 1rem;
+        overflow-x: hidden;
     }
     .input-container input{
         padding: 1rem .7rem;
