@@ -770,4 +770,100 @@ footer {
     }
     
   }
+
+  @media (max-width: 420px) {
+   
+    body {
+        overflow-x: hidden; 
+    }
+
+    nav {
+        padding: 1rem; 
+    }
+
+    nav ul {
+        top: 6rem;
+    }
+
+    .hero-container {
+        flex-direction: column-reverse; 
+        padding: .5rem; 
+    }
+    .hero-text h1 {
+        font-size: 1.5rem; 
+    }
+    .hero-text p {
+        font-size: .7rem; 
+    }
+    .hero-img img {
+        width: 100%; 
+    }
+
+   
+    .community-container {
+        padding: 1rem; 
+    }
+    .community-box {
+        padding: 1rem; 
+    }
+    .community-box h3 {
+        font-size: 1.5rem; 
+    }
+
+   
+    .pixel-container { 
+        padding: 1rem; 
+    }
+    .pixel-text {
+        padding-inline: 1rem; 
+    }
+    .pixel-text h2 {
+        font-size: 1.5rem; 
+    }
+    .pixel-text p {
+        font-size: .8rem; 
+    }
+
+    
+    .profile-container {
+        padding: 1rem;
+    }
+    .profile-card {
+        padding: 1rem 1.5rem;
+        gap: .4rem; 
+    }
+    .profile-text h2 {
+        font-size: 1.5rem; 
+    }
+
+    
+    .customer-container {
+        padding: 1rem; 
+    }
+    .customer-box {
+        flex-wrap: wrap; 
+        gap: .5rem; 
+    }
+    .customer-box img {
+        width: 15%; 
+    }
+
+    .marketing-container {
+        padding: 1rem; 
+    }
+    .marketing-content {
+        padding: .5rem; 
+    }
+
+    
+    .demo-container {
+        padding: 1rem; 
+    }
+    .demo-container h2 {
+        font-size: 1.5rem; 
+    }
+    .footer-container {
+        padding: 1rem; 
+    }
+}
   
